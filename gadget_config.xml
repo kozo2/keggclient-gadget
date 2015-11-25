@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Gadget>
+    <UUID>4d62b271-d81d-43fb-849f-65063f2e449c</UUID>
+    <Name>KeggClientGadget</Name>
+    <LaunchCommand>cmd /c "python gadget.py"</LaunchCommand>
+    <WorkingDirectory>gadgets\4d62b271-d81d-43fb-849f-65063f2e449c</WorkingDirectory>
+    <IconPaths>
+        <Icon32Path>icons/anIcon.png</Icon32Path>
+    </IconPaths>
+    <Snapshots>
+        <SnapshotPath>snapshot/screenshot1.png</SnapshotPath>
+    </Snapshots>
+    <Categories>
+        <Category>Database</Category>
+        <Category>Pathways</Category>
+    </Categories>
+    <Provider>Kozo Nishida</Provider>
+    <Description>This gadget works from command line only. This gadget download KEGG pathway xml (called KGML) for input KEGG organism code.
+    And throw the KGML files to the other gadgets."</Description>
+    <LoadableKeys>
+        <OutputFileFormat>
+            <FileExtension>xml</FileExtension>
+            <FileFormat>kgml</FileFormat>
+        </OutputFileFormat>
+    </LoadableKeys>
+    <LaunchEnv>
+        <Id>f22aa6a2-beff-4487-b838-03b8275a4361</Id>
+    </LaunchEnv>
+</Gadget>
